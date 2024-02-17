@@ -1,0 +1,69 @@
+.primary_nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.icon{
+    font-size: 2em;
+    cursor: pointer;
+    display: none;
+}
+.middle-nav{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-nav .carrots{
+    font-size: 2em;
+}
+.get-in-touch{
+    background-color: brown;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.navbar_prim{
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.navbar_prim span{
+    font-size: 1.5em;
+    color: white;
+}
+.navbar_prim button{
+    background-color: brown;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+@media (max-width: 1048px) {
+    .icon{
+        display: block;
+    }
+    .about, .services, .events, .venues, .careers, .get-in-touch{
+        display: none;
+    }
+    .middle-nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-nav .carrots{
+        text-align: center;
+    }
+}

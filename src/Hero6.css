@@ -1,0 +1,27 @@
+.Hero6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Hero6 img{
+    position: relative;
+    z-index: -1;
+    padding: 10%;
+    padding-top: 6%;
+    width: 80%;
+    align-self: center;
+    text-align: center;
+    height: auto;
+}
+.Hero6 button{
+    font-size: 6vw; 
+    color: black;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+}

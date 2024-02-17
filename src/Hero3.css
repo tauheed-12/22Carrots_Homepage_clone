@@ -1,0 +1,138 @@
+.hero3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.hero3-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.hero3 img{
+    width: 80%;
+    height: auto;
+    border-top-left-radius: 48%;
+    border-top-right-radius:48% ;
+}
+.hero3-sub{
+   flex: 1.5;
+   padding-right: 5%;
+   padding-top: 5%; 
+   width: 100%;
+}
+.hero3-sub h1{
+    color: #1A4122;
+    padding-left: 17%;
+    font-family: "F37 Caslon", serif;
+    font-size: 6em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 92%;
+    letter-spacing: -3px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.hero3-sub-sub{
+    display: flex;
+
+}
+.hero3-sub-sub-sub{
+    flex: 1;
+    padding: 5%;
+    padding-top: 0;
+    display: flex;
+    padding-left: 17%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10%;
+}
+.hero3-sub-sub-sub2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: flex-start;
+}
+#hero3-sub-des1{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    cursor: pointer;
+    display: block;
+    font-family: "F37 Caslon", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1A4122;
+    transition: color
+}
+#hero3-sub-des2{
+    margin-top: 5%;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    cursor: pointer;
+    display: block;
+    font-family: "F37 Caslon", serif;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: rgba(146, 146, 146, 0.5);
+    transition: color
+}
+.hero3-sub-sub-sub2 p {
+    color:rgba(146, 146, 146, 0.5) ;
+    font-family: "futura-pt", sans-serif;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 140%;
+}
+.hero3-sub-sub-sub2 span{
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    cursor: pointer;
+    display: block;
+    font-family: "F37 Caslon", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1A4122;
+    transition: color
+}
+.hero3-sub-sub-sub2 button{
+    background-color: #C15627;
+    border-radius: 30px;
+    padding: 10px 60px 10px 40px;
+    text-wrap: nowrap;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFF;
+    transition: .2s;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+@media (max-width: 1050px) {
+    .hero3 img{
+        border-radius: 40%;
+
+    }
+}

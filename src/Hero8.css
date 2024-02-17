@@ -1,0 +1,64 @@
+.Hero8 {
+    display: flex;
+    padding: 5%;
+    
+  }
+  
+  .Hero8 > * {
+    flex: 1;
+  }
+  
+  .Hero8 .card-grp1,
+  .Hero8 .card-grp2,
+  .Hero8 .card-img {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Hero8 .card h1 {
+    font-family: "F37 Caslon", serif;
+    font-size: 35px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1A4122;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .Hero8 .card p {
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    width: 50%;
+    text-align: left;
+    line-height: 140%;
+    color: #1A4122;
+  }
+.card-img{
+    width: 300px;
+    height: auto;
+}  
+.card-grp1{
+  
+}
+.card-grp2{
+}
+.card{
+    display: flex;
+   margin-bottom: 10%;
+   padding: 4%;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card button{
+    align-self: center;
+    height: 40px;
+    width: 150px;
+    border: 3px solid red;
+    background-color: none;
+}

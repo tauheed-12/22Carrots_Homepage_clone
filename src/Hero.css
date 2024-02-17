@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.carrot-vedio {
+    position: relative; /* Add relative positioning */
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    z-index: -1; 
+}
+
+#recorded-vedio {
+    width: 100%;
+}
+
+.the-finest {
+    font-size: 6vw; 
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .the-finest {
+        top: 30%;
+        font-size: 10vw;
+    }
+}
+@media (max-width: 968px) {
+    .carrot-vedio {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 468px) {
+    .carrot-vedio {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,17 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import ReactDOM from 'react-dom';
+import "./Navbar.css"
+import "./Hero.css"
+import "./Hero2.css"
+import "./Hero3.css"
+import "./Hero4.css"
+import "./Hero5.css"
+import "./Hero6.css"
+import "./Hero7.css"
+import "./Hero8.css"
+import "./Hero9.css"
+import "./Hero10.css"
+import "./Swiper.css"
+import { Home } from './Home';
+ReactDOM.render(<Home/>, document.getElementById('root'));
